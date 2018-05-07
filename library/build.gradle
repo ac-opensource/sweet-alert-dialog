@@ -20,5 +20,6 @@ android {
 }
 
 dependencies {
-    implements 'com.pnikosis:materialish-progress:1.0'
+    implements 'com.pnikosis:materialish-progress:1.7'
+    
 }
