@@ -20,6 +20,3 @@ android {
 dependencies {
     implements 'com.pnikosis:materialish-progress:1.0'
 }
-
-apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
-//upload command gradlew -p {moduleName} clean build uploadArchives --info
