@@ -1,20 +1,22 @@
 apply plugin: 'com.android.library'
 
-version = VERSION_NAME
-group = GROUP
-
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 19
     }
 
     lintOptions {
         abortOnError false
     }
     buildToolsVersion '26'
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
