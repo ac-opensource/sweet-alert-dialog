@@ -8,8 +8,8 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 13
-        targetSdkVersion 23
+        minSdkVersion 19
+        targetSdkVersion 27
     }
 
     lintOptions {

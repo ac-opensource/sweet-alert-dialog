@@ -11,7 +11,7 @@ android {
     lintOptions {
         abortOnError false
     }
-    buildToolsVersion '26'
+    buildToolsVersion '26.0.2'
     
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -20,6 +20,5 @@ android {
 }
 
 dependencies {
-    implements 'com.pnikosis:materialish-progress:1.7'
-    
+    compile 'com.pnikosis:materialish-progress:1.7'
 }
